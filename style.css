@@ -26,15 +26,19 @@ body {
   /* overflow-x: none; */
 }
 
-/* -----------------section -------------------- */
+.max-w,
 section {
-  padding-bottom: 64px;
-  margin-top: 64px;
   max-width: 1440px;
   padding-left: 24px;
   padding-right: 24px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* -----------------section -------------------- */
+section {
+  padding-bottom: 64px;
+  margin-top: 64px;
 }
 /* -------------------nav-----------------------  */
 .nav {
@@ -528,18 +532,17 @@ video {
   .footer {
     padding: 80px 24px 30px;
   }
-  .footerOne{
+  .footerOne {
     flex-direction: column;
   }
-
 
   .footer_links a {
     font-size: 20px;
   }
 
-    .footer_links a:hover {
-  transform: translateX(8px);
-}
+  .footer_links a:hover {
+    transform: translateX(8px);
+  }
 }
 
 /* mobile  */
